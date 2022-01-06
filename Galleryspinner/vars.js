@@ -13,11 +13,6 @@ const cube = document.querySelector(".cuboid");
 const faceWrap = document.querySelector(".faceWrap");
 const shader = document.querySelector(".shader");
 // Count.addEventListener("input", changed);
-
-
-
-
-
 //create  360 deg to split into segments
 const angle = Math.PI * 2;
 let setBox = Count.value,

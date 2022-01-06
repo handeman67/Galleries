@@ -4,7 +4,6 @@ const sceneinner = document.querySelector(".sceneinner");
 const scene = document.querySelector(".scene");
 const app = document.querySelector(".app");
 const cube = document.querySelectorAll(".cuboid");
-
 class box {
   constructor(e) {
     e = this;
@@ -15,7 +14,6 @@ class box {
     e.container.classList.add("template");
     e.container.id = "template";
     e.container.innerHTML = this.HTM;
-
     return e;
   }
 }

@@ -5,10 +5,7 @@ class box {
        <div class="faceWrap">
         <div class="face">
           <div class="shader"></div>
-        </div>
-    
-        </div></div>
-                 `;
+        </div> </div></div>`;
       e.container = document.createElement("template");
       e.container.classList.add("template");
       e.container.id = "template";

@@ -7,7 +7,6 @@
   --sceneZ: 50em;
   --activeY: 0deg;
   --img: url("");
-
 }
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 body {
@@ -28,7 +27,6 @@ label {
   padding: 3px;
   text-align: center;
 }
-
 .app {
   position: absolute;
   background: #0000;
