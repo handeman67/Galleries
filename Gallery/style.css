@@ -1,0 +1,61 @@
+body,
+input {
+  font-family: Roboto, sans-serif;
+}
+input {
+  display:none;
+}
+body {
+  background-color: #00000088;
+}
+div {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+#app {
+  position: absolute;
+  background-color: #00000055;
+  overflow: hidden;
+  top: 0.5rem;
+  left: 0.5rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}
+.gallery {
+  background-color: #00000088;
+}
+.checkboxes {
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: [col-end];
+  grid-row-start:1;
+  grid-row-end: [row-end];
+  top: 0.5rem;
+  left: 0.5rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}
+[name="radio"]:checked + image {
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  grid-row: 1 / span end;
+  grid-col: 1 / span end;
+  top: 0.5rem;
+  left: 0.5rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}
+.image {
+  background-color: green;
+ }
+ .ImageWrap:hover {
+ z-index:1000;
+}
+.ImageWrap {
+  position: absolute;
+}
